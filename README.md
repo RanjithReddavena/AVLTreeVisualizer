@@ -7,7 +7,7 @@ This project demonstrates the working of a Self-Balancing Binary Search Tree (AV
 - AVL Tree insertion
 - Automatic tree balancing
 - Visualization of nodes
-- Educational explanation of AVL rotations
+- Explanation of AVL rotations
 
 ## Technologies Used
 
@@ -34,9 +34,7 @@ If the balance factor becomes greater than 1 or less than -1, rotations are perf
 
 | Operation | Complexity |
 |----------|------------|
-Search | O(log n)
 Insert | O(log n)
-Delete | O(log n)
 
 ## How to Run
 
@@ -46,4 +44,4 @@ Delete | O(log n)
 
 ## Live Demo
 
-
+https://avltreeinsertionvisualizer.netlify.app/
