@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AVL Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <header class="app-bar">
+        <div class="brand">AVL Tree Visualizer</div>
+        <div class="controls">
+            <input type="number" id="nodeValue" placeholder="Enter Value">
+            <button class="btn-insert" onclick="handleInsert()">Insert</button>
+            <button class="btn-clear" onclick="handleClear()">Clear</button>
+        </div>
+    </header>
+
+    <!-- Full-screen Canvas -->
+    <div id="canvasContainer">
+        <canvas id="treeCanvas"></canvas>
+    </div>
+
+    <script src="avlTree.js"></script>
+    <script src="visualizer.js"></script>
+</body>
+</html>
